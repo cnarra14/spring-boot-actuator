@@ -20,6 +20,9 @@ Some of the actuator endpoints are protected with Spring Security's HTTP Basic A
 
 **Prometheus Installation  :** <https://prometheus.io/docs/prometheus/latest/installation> (Default URI:Port : <http://localhost:9090> )
 
+ ``` bash
+ prometheus --config.file=../spring-boot-actuator-demo/src/main/resources/prometheus.yml
+  ```
 
 
 **Grafana Installation :** <https://grafana.com/docs/grafana/latest/installation/mac>
